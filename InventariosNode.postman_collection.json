@@ -1,0 +1,57 @@
+{
+	"id": "1cafe551-784b-acbd-7907-bcfb87e9d287",
+	"name": "InventariosNode",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "TipoEquipo",
+			"description": "",
+			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
+			"order": [
+				"28c5b785-ab21-26ba-601c-10391674cbfe"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "ef7d6179-6179-6c8a-8e4d-192dd00e4c36"
+		}
+	],
+	"folders_order": [
+		"ef7d6179-6179-6c8a-8e4d-192dd00e4c36"
+	],
+	"timestamp": 1663381200511,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "28c5b785-ab21-26ba-601c-10391674cbfe",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/tipoequipos",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1663382312562,
+			"name": "CreateTipoEquipo",
+			"description": "",
+			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
+			"responses": [],
+			"rawModeData": "{\n\t\"nombre\": \"Cómputo\"\n}"
+		}
+	]
+}
