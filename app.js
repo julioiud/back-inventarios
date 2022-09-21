@@ -7,7 +7,9 @@ const app = express(); // se crea instancia de express
  * importación de rutas
  */
 const tipoEquipo = require('./routes/tipoEquipo')
-// const usuario = require('./routes/usuario')
+const estado = require('./routes/estado')
+const marca = require('./routes/marca')
+const usuario = require('./routes/usuario')
 /**
  * middlewares
  */
@@ -16,7 +18,12 @@ app.use(express.json())
 // TODO: middleware de subida de foto
 // TODO: middleware de cors
 
+/**
+ * Utilizar sustantivos en plural para una URI
+ */
 app.use('/api/tipoequipos', tipoEquipo)
-// app.use('/api/usuarios', usuario);
+app.use('/api/estados', estado) 
+app.use('/api/marcas', marca) 
+app.use('/api/usuarios', usuario);
 
 module.exports = app;
