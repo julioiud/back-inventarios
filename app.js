@@ -35,7 +35,7 @@ app.use('/api/usuarios', usuario);
 app.use('/api/inventarios', inventario)
 
 app.get("*", (req, res) => {
-    return res.json({
+    return res.status(404).json({
         msj: 'pagina no encontrada'
     });
 });
