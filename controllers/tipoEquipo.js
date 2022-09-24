@@ -53,11 +53,9 @@ const getTiposEquipo = async (req = request,
 const getTipoEquipoByID = async (req = request,
     res = response) => {
     try{
-        console.log(req.query)
         console.log(req.params)
-        const estado = req.query.estado
         const id = req.params.id
-        const query = {estado: estado, _id: id}
+        const query = {_id: id}
         const tipoequipoDB = await TipoEquipo.findOne(query)
         return res.json(tipoequipoDB)
     }catch(e){

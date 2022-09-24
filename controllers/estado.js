@@ -52,11 +52,9 @@ const getEstados = async (req = request,
 const getEstadoByID = async (req = request,
     res = response) => {
     try{
-        console.log(req.query)
         console.log(req.params)
-        const estado = req.query.estado
         const id = req.params.id
-        const query = {estado: estado, _id: id}
+        const query = {_id: id}
         const estadoDB = await Estado.findOne(query)
         return res.json(estadoDB)
     }catch(e){
