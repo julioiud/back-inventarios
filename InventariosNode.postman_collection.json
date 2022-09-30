@@ -99,7 +99,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/estados/632e601f051574ef583c673e",
+			"url": "{{base_url}}/estados/632e601f051574ef583c673e",
 			"folder": "cc521bc5-7df7-7da9-0a2f-1fa341821495",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -112,7 +112,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663984970593,
+			"time": 1664504979419,
 			"name": "Borrar Estado por ID",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -130,7 +130,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/estados?estado=true",
+			"url": "{{base_url}}/estados?estado=true",
 			"folder": "cc521bc5-7df7-7da9-0a2f-1fa341821495",
 			"queryParams": [
 				{
@@ -151,7 +151,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663731612352,
+			"time": 1664504974170,
 			"name": "Consultar Estados",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -169,7 +169,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/marcas/632e5b229388c67918dcb7e8",
+			"url": "{{base_url}}/marcas/632e5b229388c67918dcb7e8",
 			"folder": "4d90b434-fd64-b8f8-0f2a-92e4475cd5b4",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -182,7 +182,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663982873125,
+			"time": 1664505015797,
 			"name": "Consultar marca por ID",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -200,7 +200,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/tipoequipos",
+			"url": "{{base_url}}/tipoequipos",
 			"folder": "ef7d6179-6179-6c8a-8e4d-192dd00e4c36",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -213,7 +213,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663984961213,
+			"time": 1664504962605,
 			"name": "CreateTipoEquipo",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -231,7 +231,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/usuarios?estado=true",
+			"url": "{{base_url}}/usuarios?estado=true",
 			"folder": "07a87e54-b8b2-02d0-6291-7495635d3392",
 			"queryParams": [
 				{
@@ -252,7 +252,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663984567195,
+			"time": 1664505039092,
 			"name": "Consultar todos los usuarios",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -270,7 +270,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/estados",
+			"url": "{{base_url}}/estados",
 			"folder": "cc521bc5-7df7-7da9-0a2f-1fa341821495",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -283,7 +283,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663983727595,
+			"time": 1664504972412,
 			"name": "Crear Estado",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -301,7 +301,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/inventarios",
+			"url": "{{base_url}}/inventarios",
 			"folder": "364cd7a4-edb4-745b-16af-dd4149f94cde",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -314,7 +314,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663988878675,
+			"time": 1664504995325,
 			"name": "Crear inventario",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -332,7 +332,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/tipoequipos/632e5f06051574ef583c6728",
+			"url": "{{base_url}}/tipoequipos/632e5f06051574ef583c6728",
 			"folder": "ef7d6179-6179-6c8a-8e4d-192dd00e4c36",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -345,7 +345,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663984965837,
+			"time": 1664504966151,
 			"name": "Consultar Tipo Equipo por ID",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -363,7 +363,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/marcas?estado=true",
+			"url": "{{base_url}}/marcas?estado=true",
 			"folder": "4d90b434-fd64-b8f8-0f2a-92e4475cd5b4",
 			"queryParams": [
 				{
@@ -384,7 +384,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663982496563,
+			"time": 1664505012361,
 			"name": "Consultar todas las marcas",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -402,7 +402,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/tipoequipos/632e5f06051574ef583c6728",
+			"url": "{{base_url}}/tipoequipos/632e5ea5051574ef583c671b",
 			"folder": "ef7d6179-6179-6c8a-8e4d-192dd00e4c36",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -415,12 +415,12 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663983736974,
+			"time": 1664504968031,
 			"name": "Actualizar Tipo Equipo por ID",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
 			"responses": [],
-			"rawModeData": "{\n\t\"nombre\": \"CÓMPUTO\"\n}"
+			"rawModeData": "{\n\t\"estado\": false\n}"
 		},
 		{
 			"id": "659bd3e3-cd15-28b3-629a-f267218488aa",
@@ -433,7 +433,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/marcas/632e5b229388c67918dcb7e8",
+			"url": "{{base_url}}/marcas/632e5b229388c67918dcb7e8",
 			"folder": "4d90b434-fd64-b8f8-0f2a-92e4475cd5b4",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -446,7 +446,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663983094480,
+			"time": 1664505020489,
 			"name": "Actualizar marca por ID",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -464,7 +464,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/usuarios/632e635a4c815f15afa381cd",
+			"url": "{{base_url}}/usuarios/632e635a4c815f15afa381cd",
 			"folder": "07a87e54-b8b2-02d0-6291-7495635d3392",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -477,7 +477,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663984637851,
+			"time": 1664505043317,
 			"name": "Consultar usuario por ID",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -495,7 +495,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/marcas/632e5b229388c67918dcb7e8",
+			"url": "{{base_url}}/marcas/632e5b229388c67918dcb7e8",
 			"folder": "4d90b434-fd64-b8f8-0f2a-92e4475cd5b4",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -508,7 +508,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663983763306,
+			"time": 1664505025890,
 			"name": "Borrar marca por ID",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -526,7 +526,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/usuarios",
+			"url": "{{base_url}}/usuarios",
 			"folder": "07a87e54-b8b2-02d0-6291-7495635d3392",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -539,7 +539,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663984569398,
+			"time": 1664505033491,
 			"name": "Crear Usuario",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -557,7 +557,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/estados/632e5f8a051574ef583c672f",
+			"url": "{{base_url}}/estados/632e5f8a051574ef583c672f",
 			"folder": "cc521bc5-7df7-7da9-0a2f-1fa341821495",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -570,7 +570,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663983732872,
+			"time": 1664504976025,
 			"name": "Consultar Estado por ID",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -588,7 +588,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/marcas",
+			"url": "{{base_url}}/marcas",
 			"folder": "364cd7a4-edb4-745b-16af-dd4149f94cde",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -601,7 +601,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663983764304,
+			"time": 1664505007072,
 			"name": "Crear Marca",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -619,7 +619,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/tipoequipos/632e5ec1051574ef583c671e",
+			"url": "{{base_url}}/tipoequipos/6336537c67d92003e5625e89",
 			"folder": "ef7d6179-6179-6c8a-8e4d-192dd00e4c36",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -632,7 +632,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663984959017,
+			"time": 1664504969839,
 			"name": "Borrar Tipo Equipo por ID",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -649,7 +649,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/inventarios",
+			"url": "{{base_url}}/inventarios",
 			"folder": "cc521bc5-7df7-7da9-0a2f-1fa341821495",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -662,7 +662,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663988881150,
+			"time": 1664504993635,
 			"name": "Consultar Inventarios",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -680,7 +680,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/tipoequipos?estado=true",
+			"url": "{{base_url}}/tipoequipos?estado=true",
 			"folder": "ef7d6179-6179-6c8a-8e4d-192dd00e4c36",
 			"queryParams": [
 				{
@@ -701,7 +701,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663984963732,
+			"time": 1664504964466,
 			"name": "Consultar Tipos Equipo",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -719,7 +719,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/usuarios/632e635a4c815f15afa381cd",
+			"url": "{{base_url}}/usuarios/632e635a4c815f15afa381cd",
 			"folder": "07a87e54-b8b2-02d0-6291-7495635d3392",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -732,7 +732,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663984936002,
+			"time": 1664505051418,
 			"name": "Borrar usuario por ID",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -750,7 +750,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/usuarios/632e635a4c815f15afa381cd",
+			"url": "{{base_url}}/usuarios/632e63724c815f15afa381d0",
 			"folder": "07a87e54-b8b2-02d0-6291-7495635d3392",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -763,12 +763,12 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663984842469,
+			"time": 1664505047599,
 			"name": "Editar usuario por ID",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
 			"responses": [],
-			"rawModeData": "{\n\t\"email\": \"pacho@gmail.com\"\n}"
+			"rawModeData": "{\n\t\"estado\": false\n}"
 		},
 		{
 			"id": "fbf0d160-c3c0-5b45-6103-2a48df56dfe2",
@@ -781,7 +781,7 @@
 					"enabled": true
 				}
 			],
-			"url": "localhost:3000/api/estados/632e5f8a051574ef583c672f",
+			"url": "{{base_url}}/estados/632e5f8a051574ef583c672f",
 			"folder": "cc521bc5-7df7-7da9-0a2f-1fa341821495",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -794,7 +794,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1663983752976,
+			"time": 1664504977766,
 			"name": "Actualizar Estado por ID",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
