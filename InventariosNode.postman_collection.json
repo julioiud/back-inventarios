@@ -25,7 +25,12 @@
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
 			"order": [
 				"bfe26a14-1332-cef5-a594-7f772389c4c5",
-				"3c0fefb6-dcda-a766-094f-54c7acb40a8c"
+				"b175c18b-6771-ea7f-de35-bc0b4b93ce35",
+				"072d7f98-bad1-015d-95d6-6687d82a5639",
+				"444060cd-12e9-524c-cf9d-fed7133b3e20",
+				"3c0fefb6-dcda-a766-094f-54c7acb40a8c",
+				"b16f90ba-278e-cf13-66eb-77005d42c68b",
+				"7ade5986-73b3-0ffd-e7b0-9227b863fb5e"
 			],
 			"owner": 0,
 			"folders_order": [],
@@ -88,6 +93,37 @@
 	"owner": 0,
 	"public": false,
 	"requests": [
+		{
+			"id": "072d7f98-bad1-015d-95d6-6687d82a5639",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url}}/inventarios/632e715151be1daefd6d2694",
+			"folder": "364cd7a4-edb4-745b-16af-dd4149f94cde",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1665187093939,
+			"name": "Consultar Inventario por ID",
+			"description": "",
+			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
+			"responses": [],
+			"rawModeData": "{\n\t\"nombre\": \"Cómputo\"\n}"
+		},
 		{
 			"id": "1ed6c5f5-5a00-4238-671f-5342ea6c678e",
 			"headers": "Content-Type: application/json\n",
@@ -314,12 +350,12 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1664504995325,
+			"time": 1665187076114,
 			"name": "Crear inventario",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
 			"responses": [],
-			"rawModeData": "{\n\t\"serial\": \"1111-2222-4447\",\n\t\"modelo\": \"2021\",\n\t\"descripcion\": \"\",\n\t\"foto\": \"\",\n\t\"color\": \"\",\n\t\"fechaCompra\": \"2022-01-01\",\n\t\"precio\": \"300\",\n\t\"usuario\": {\n\t\t\"_id\":\"632e63124c815f15afa381ca\"\n\t},\n\t\"marca\": {\n\t\t\"_id\": \"632e5b079388c67918dcb7e2\"\n\t},\n\t\"estado\": {\n\t\t\"_id\": \"632e5f8a051574ef583c672f\"\n\t},\n\t\"tipoEquipo\": {\n\t\t\"_id\": \"632e5f06051574ef583c6728\"\n\t}\n}"
+			"rawModeData": "{\n\t\"serial\": \"1111-2222-4447\",\n\t\"modelo\": \"2021\",\n\t\"descripcion\": \"https://i.blogs.es/3e74cb/1100_312x312/450_1000.webp\",\n\t\"foto\": \"\",\n\t\"color\": \"\",\n\t\"fechaCompra\": \"2022-01-01\",\n\t\"precio\": \"300\",\n\t\"usuario\": {\n\t\t\"_id\":\"632e63124c815f15afa381ca\"\n\t},\n\t\"marca\": {\n\t\t\"_id\": \"632e5b079388c67918dcb7e2\"\n\t},\n\t\"estado\": {\n\t\t\"_id\": \"632e5f8a051574ef583c672f\"\n\t},\n\t\"tipoEquipo\": {\n\t\t\"_id\": \"632e5f06051574ef583c6728\"\n\t}\n}"
 		},
 		{
 			"id": "3d5823e9-017a-d250-5501-565d28033d6d",
@@ -351,6 +387,37 @@
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
 			"responses": [],
 			"rawModeData": "{\n\t\"nombre\": \"Cómputo\"\n}"
+		},
+		{
+			"id": "444060cd-12e9-524c-cf9d-fed7133b3e20",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url}}/inventarios/632e71bb063da02c54439613",
+			"folder": "364cd7a4-edb4-745b-16af-dd4149f94cde",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1665187080528,
+			"name": "Eliminar Inventarios por ID",
+			"description": "",
+			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
+			"responses": [],
+			"rawModeData": ""
 		},
 		{
 			"id": "4ec17064-13c0-b1e2-638d-590cea143fff",
@@ -516,6 +583,37 @@
 			"rawModeData": ""
 		},
 		{
+			"id": "7ade5986-73b3-0ffd-e7b0-9227b863fb5e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url}}/inventarios/632e715151be1daefd6d2694",
+			"folder": "364cd7a4-edb4-745b-16af-dd4149f94cde",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1664567903370,
+			"name": "Actualiza inventario por ID",
+			"description": "",
+			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
+			"responses": [],
+			"rawModeData": "{\n\t\"modelo\": \"2030\",\n\t\"descripcion\": \"descripción actualizada\",\n\t\"foto\": \"\"\n}"
+		},
+		{
 			"id": "80a95d43-8815-f4d4-24c6-2c75f6f3bef3",
 			"headers": "Content-Type: application/json\n",
 			"headerData": [
@@ -609,6 +707,75 @@
 			"rawModeData": "{\n\t\"nombre\": \"Samsung\"\n}"
 		},
 		{
+			"id": "b16f90ba-278e-cf13-66eb-77005d42c68b",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{base_url}}/inventarios/632e715151be1daefd6d2694/images",
+			"folder": "364cd7a4-edb4-745b-16af-dd4149f94cde",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "foto",
+					"value": "IMG_20220803_042446.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1665187084771,
+			"name": "Subir foto de Inventario",
+			"description": "",
+			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
+			"responses": []
+		},
+		{
+			"id": "b175c18b-6771-ea7f-de35-bc0b4b93ce35",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url}}/inventarios/632e715151be1daefd6d2694/images",
+			"folder": "364cd7a4-edb4-745b-16af-dd4149f94cde",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1665187073435,
+			"name": "Consultar Foto Inventario Por ID",
+			"description": "",
+			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
+			"responses": [],
+			"rawModeData": "{\n\t\"nombre\": \"Cómputo\"\n}"
+		},
+		{
 			"id": "b65785ac-32e0-d642-fc1c-ec9dd0f1f34a",
 			"headers": "Content-Type: application/x-www-form-urlencoded\n",
 			"headerData": [
@@ -619,7 +786,7 @@
 					"enabled": true
 				}
 			],
-			"url": "{{base_url}}/tipoequipos/6336537c67d92003e5625e89",
+			"url": "{{base_url}}/tipoequipos/63375c3302a6add442c08088",
 			"folder": "ef7d6179-6179-6c8a-8e4d-192dd00e4c36",
 			"queryParams": [],
 			"preRequestScript": null,
@@ -632,7 +799,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1664504969839,
+			"time": 1665187098227,
 			"name": "Borrar Tipo Equipo por ID",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
@@ -662,7 +829,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1664504993635,
+			"time": 1665187086567,
 			"name": "Consultar Inventarios",
 			"description": "",
 			"collectionId": "1cafe551-784b-acbd-7907-bcfb87e9d287",
