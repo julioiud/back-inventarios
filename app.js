@@ -12,6 +12,8 @@ const estado = require('./routes/estado')
 const marca = require('./routes/marca')
 const usuario = require('./routes/usuario')
 const inventario = require('./routes/inventario')
+// MÓDULO AUTENTICACIÓN & AUTORIZACIÓN
+const auth = require('./routes/auth')
 /**
  * middlewares
  */
@@ -31,6 +33,9 @@ app.use('/api/estados', estado)
 app.use('/api/marcas', marca) 
 app.use('/api/usuarios', usuario);
 app.use('/api/inventarios', inventario)
+
+// MÓDULO AUTENTICACIÓN & AUTORIZACIÓN
+app.use('/api/auth', auth)
 
 app.get("*", (req, res) => {
     return res.status(404).json({
